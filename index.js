@@ -7,13 +7,13 @@ if ((width >= 1000)){
         $("#header").css("box-shadow","0px 0px 20px rgba(0,0,0,0.09)");
         $("#header").css("padding","4vh 4vw");
         $("#navigation a").hover(function(){
-            $(this).css("border-bottom","2px solid rgb(255, 44, 90)");
+            $(this).css("border-bottom","2px solid rgb(226, 198, 35)");
         },function(){
             $(this).css("border-bottom","2px solid transparent");
         });
     }else{
         $("#header").css("background","transparent");
-        $("#header").css("color","#fff");
+        $("#header").css("color","#FFD700");
         $("#header").css("box-shadow","0px 0px 0px rgba(226, 198, 35,0.8);");    //rgba(0,0,0,0) es negro
         $("#header").css("padding","6vh 4vw");
         $("#navigation a").hover(function(){
