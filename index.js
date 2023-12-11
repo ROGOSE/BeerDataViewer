@@ -3,7 +3,7 @@ window.onscroll = function(){
 if ((width >= 1000)){
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         $("#header").css("background","#fff");    //#fff es blanco
-        $("#header").css("color","#fff"); //estaba #000
+        $("#header").css("color","#000");
         $("#header").css("box-shadow","0px 0px 20px rgba(0,0,0,0.09)");
         $("#header").css("padding","4vh 4vw");
         $("#navigation a").hover(function(){
