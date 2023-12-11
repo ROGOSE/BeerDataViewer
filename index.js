@@ -13,7 +13,7 @@ if ((width >= 1000)){
         });
     }else{
         $("#header").css("background","transparent");
-        $("#header").css("color","solid #fff");
+        $("#header").css("color","#fff");
         $("#header").css("box-shadow","0px 0px 0px rgba(226, 198, 35,0.8);");    //rgba(0,0,0,0) es negro
         $("#header").css("padding","6vh 4vw");
         $("#navigation a").hover(function(){
