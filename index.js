@@ -6,7 +6,7 @@ if ((width >= 1000)){
         $("#header").css("color","#fff");           //antes estaba #000
         $("#header").css("box-shadow","0px 0px 20px rgba(0,0,0,0.09)");
         $("#header").css("padding","4vh 4vw");
-        $("#header").css("width","100%");
+        //$("#header").css("width","100%");
         $("#navigation a").hover(function(){
             $(this).css("border-bottom","2px solid rgb(226, 198, 35)");
         },function(){
@@ -17,7 +17,7 @@ if ((width >= 1000)){
         $("#header").css("color","#fff");
         $("#header").css("box-shadow","0px 0px 0px rgba(0, 0, 0,0.09);");    //rgba(0,0,0,0) es negro
         $("#header").css("padding","6vh 4vw");
-        $("#header").css("width","100%");
+        //$("#header").css("width","100%");
         $("#navigation a").hover(function(){
             $(this).css("border-bottom","2px solid #fff");
         },function(){
