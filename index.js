@@ -14,7 +14,7 @@ if ((width >= 1000)){
         });
     }else{
         $("#header").css("background","fff");   //antes estaba "transparent"
-        $("#header").css("color","#fff");
+        $("#header").css("color","#000");
         $("#header").css("box-shadow","0px 0px 0px rgba(0, 0, 0,0.09);");    //rgba(0,0,0,0) es negro
         $("#header").css("padding","6vh 4vw");
         //$("#header").css("width","100%");
