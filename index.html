@@ -25,13 +25,13 @@
     <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
         <table>
             <tr>
-                <td id="logo">BEER DATA</td>
+                <td id="logo">BEER DATA VIEWER</td>
                 <td id="navigation">
                     <a href="#project">project</a>
                     <a href="#why">why</a>
                     <a href="#data">data</a>  <!--antes habia: <a href="">data</a>-->
                     <a href="#manual">user manual</a>  <!--antes no habia nada-->
-                    <a href="#contact">contact</a>
+                    <a href="#contact">members</a>
                 </td>
             </tr>
         </table>
@@ -39,15 +39,15 @@
     <table id="top_part">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h1>the Face of Beer Reviews</h1>
+                <h1>Beer Data, the Face of Beer Reviews</h1>
                 <button class="btn_one">Grab a Beer</button><br>
-                <table>
+                <!--<table>
                     <tr>
                         <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
                     </tr>
-                </table>
+                </table>-->
             </td>
             <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
         </tr>
@@ -84,11 +84,11 @@
         <p>
     </div>
     <div id="manual">
-        <h1>user manual</h1>
+        <h1>user</h1>
         <h2>Manual de usuario para los scripts</h2>
 
         <p>Para poder procesar los scripts que hemos desarrollado en un 
-        equipo Ubuntu o en una instancia de Google Cloud, antes deben seguir los siguientes pasos:</p>
+        equipo Ubuntu o en una instancia de Google Cloud, antes se deben seguir los siguientes pasos:</p>
         
         <h3>Pasos a seguir</h3>
         <ol class="lista">
@@ -109,10 +109,9 @@
             <code>$ sudo apt install python3-pip</code>
             <li>Comprobación de buena instalación</li>
             <code>$ spark-submit /usr/local/spark/examples/src/main/python/pi.py 10</code>
-            <p>Si todo se ha instalado correctamente debería salirnos una línea diciendo : Pi is roughly 3.142480
-                Una vez la instalación se ha efectuado correctamente, ya podemos ejecutar los scripts del proyecto usando el siguiente comando:</p>
+            <p>Si todo se ha instalado correctamente debería aparecer la siguiente línea: Pi is roughly 3.142480 </p>
+            <p>Una vez se ha efectuado la instalación correctamente, ya podemos ejecutar los scripts del proyecto usando el siguiente comando:</p>
             <code>$ spark-submit "nombre_fichero.py"</code>
-            <li></li>
         </ol>
 
         <h3>Instancia en Google Cloud</h3>
@@ -141,13 +140,13 @@
                 <li>Mediantes envios de trabajo desde Cluster's Master Node: Ir a Dataproc > Cluster > Cluster_info > Virtual Machines y entrar en master usando SSH:</li>
                 <code>$ BUCKET=gs://$GOOGLE_CLOUD_PROJECT</code>
                 <code>$ spark-submit $BUCKET/wordcount.py $BUCKET/input $BUCKET/output3</code>
-                <p>Se puede cambiar el número de executors y cores con los que queremos trabajar:</p>
-                <code>$ spark-submit --num-executors <n_executors> --executor-cores <n_cores> filter_cloud.py</code>
             </ol>
+            <p>Se puede cambiar el número de executors y cores con los que queremos trabajar:</p>
+            <code>$ spark-submit --num-executors <n_executors> --executor-cores <n_cores> filter_cloud.py</code>
         </ol>
     </div>
     <div id="contact">
-        <h1>contact</h1>
+        <h1>members</h1>
             <table>
                 <tr>
                     <td>
@@ -183,19 +182,11 @@
                             </table>
                         </div>
                     </td>
-                    <td>
-                        <form>
-                            <input type="text" placeholder="name" required>
-                            <input type="email" placeholder="email" required><br>
-                            <textarea placeholder="your message" required rows="5"></textarea><br>
-                            <button class="btn_one">send</button>
-                        </form> 
-                    </td>
                 </tr>
             </table>
     </div>
     <div id="footer">
-        made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+        made by Beer Data <br> <a href="https://imfunniee.github.io">BeerDataViewer</a>
     </div>
     <script src="index.js" type="text/javascript"></script>
 </body>

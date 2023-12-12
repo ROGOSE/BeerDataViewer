@@ -203,7 +203,7 @@ header table {
 #why h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(226, 198, 35);
-    width:8%;
+    width:4%;
 }
 #data {
     width:92vw;
@@ -213,7 +213,7 @@ header table {
 #data h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(226, 198, 35);
-    width:8%;
+    width:6%;
 }
 #manual {
     width:92vw;
@@ -223,7 +223,7 @@ header table {
 #manual h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(226, 198, 35);
-    width:8%;
+    width:6%;
 }
 #contact {
     width:92vw;
@@ -232,7 +232,7 @@ header table {
 #contact h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(226, 198, 35);
-    width:10%;
+    width:9%;
 }
 #contact table {
     width:100%;
