@@ -176,7 +176,7 @@ header table {
 #project h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(226, 198, 35);
-    width:9%;
+    width:8%;
 }
 #photos {
     width:100%;
@@ -213,7 +213,7 @@ header table {
 #data h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(226, 198, 35);
-    width:5%;
+    width:100px;
 }
 #manual {
     width:92vw;
