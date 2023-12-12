@@ -215,6 +215,16 @@ header table {
     border-bottom:4px solid rgb(226, 198, 35);
     width:8%;
 }
+#manual {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#manual h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(226, 198, 35);
+    width:8%;
+}
 #contact {
     width:92vw;
     padding:6vh 4vw;
@@ -381,6 +391,9 @@ button:focus {
         width:25%;
     }
     #data h1 {
+        width:25%;
+    }
+    #manual h1 {
         width:25%;
     }
     #contact h1 {
