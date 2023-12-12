@@ -195,12 +195,22 @@ header table {
     transform: scale(1.1);
     cursor: pointer;
 }
-#bio {
+#why {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
-#bio h1 {
+#why h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(226, 198, 35);
+    width:8%;
+}
+#data {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#data h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(226, 198, 35);
     width:8%;
@@ -367,7 +377,10 @@ button:focus {
     #project h1 {
         width:19%;
     }
-    #bio h1 {
+    #why h1 {
+        width:25%;
+    }
+    #data h1 {
         width:25%;
     }
     #contact h1 {
