@@ -37,7 +37,7 @@ header {
     padding:6vh 4vw;
     position:fixed;
     font-weight:bold;
-    background:rgba(128,128,128,0.5); /*antes estaba transparent */
+    background:transparent; /*antes estaba transparent */
     color:#fff;
     transition:0.4s ease-in-out;
     z-index:2;
@@ -195,7 +195,7 @@ header table {
     transform: scale(1.1);
     cursor: pointer;
 }
-#why {
+/*#why {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
@@ -204,7 +204,7 @@ header table {
     padding:5px 0px;
     border-bottom:4px solid rgb(226, 198, 35);
     width:5%;
-}
+}*/
 #data {
     width:92vw;
     padding:6vh 4vw;
@@ -215,12 +215,12 @@ header table {
     border-bottom:4px solid rgb(226, 198, 35);
     width:5%;
 }
-#user {
+#manual {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
-#user h1 {
+#manual h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(226, 198, 35);
     width:5%;
@@ -417,13 +417,13 @@ button:focus {
     #project h1 {
         width:25%;
     }
-    #why h1 {
+    /*#why h1 {
         width:16%;
-    }
+    }*/
     #data h1 {
         width:19%;
     }
-    #user h1 {
+    #manual h1 {
         width:50%;
     }
     #performance h1 {
