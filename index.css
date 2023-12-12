@@ -180,7 +180,9 @@ header table {
 }
 #photos {
     width:100%;
-    columns:3;
+    display: flex; /*columns:3;*/
+    flex-wrap: wrap; /**/
+    justify-content: space-between;/**/
     column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
@@ -346,7 +348,7 @@ button:focus {
 @media (max-width: 1000px){
     #photos {
     columns:1;
-    column-gap:0%;
+    column-gap:10%;
     }
     #photos img {
         margin:2% 0px;
