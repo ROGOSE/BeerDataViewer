@@ -58,9 +58,10 @@ $(document).ready(function(){
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;
+        var headerHeight = $("#header").height(); //linea añadida (antes no estaba)
         $('body,html').animate({
-        scrollTop: $(hash).offset().top
-        }, 1400, function(){ //estaba a 1800
+        scrollTop: $(hash).offset().top - headerHeight  //añadimos -headerH
+        }, 1800, function(){ 
         window.location.hash = hash;
        });
        } 
