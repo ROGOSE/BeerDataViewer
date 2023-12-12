@@ -60,7 +60,7 @@ $(document).ready(function(){
         var hash = this.hash;
         $('body,html').animate({
         scrollTop: $(hash).offset().top
-        }, 1800, function(){
+        }, 1400, function(){ //estaba a 1800
         window.location.hash = hash;
        });
        } 
