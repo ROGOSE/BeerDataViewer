@@ -225,6 +225,36 @@ header table {
     border-bottom:4px solid rgb(226, 198, 35);
     width:5%;
 }
+#performance {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#performance h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(226, 198, 35);
+    width:5%;
+}
+#outcome {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#outcome h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(226, 198, 35);
+    width:5%;
+}
+#conclusion {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#conclusion h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(226, 198, 35);
+    width:5%;
+}
 #contact {
     width:92vw;
     padding:6vh 4vw;
@@ -394,6 +424,15 @@ button:focus {
         width:19%;
     }
     #user h1 {
+        width:50%;
+    }
+    #performance h1 {
+        width:50%;
+    }
+    #outcome h1 {
+        width:50%;
+    }
+    #conclusion h1 {
         width:50%;
     }
     #contact h1 {
