@@ -49,6 +49,7 @@ header table {
     width:20%;
 }
 #navigation {
+    position: fixed;
     width:80%;
 }
 #magnify {
@@ -345,7 +346,7 @@ button:focus {
 
 @media (max-width: 1000px){
     #photos {
-    columns:1;
+    columns:2;  /*esto estaba a 1*/
     column-gap:0%;
     }
     #photos img {
@@ -405,7 +406,7 @@ button:focus {
         width:90%;
     }
     #project h1 {
-        width:25%;
+        width:12px;
     }
     /*#why h1 {
         width:16%;
